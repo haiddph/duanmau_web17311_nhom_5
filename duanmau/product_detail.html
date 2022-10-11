@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/dc700a75c1.js" crossorigin="anonymous"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alla.com.vn/kien-thuc" />
+    <meta property="og:title" content="Kiến thức thiết kế website" />
+    <meta property="og:description" content="Hãy cùng nhau chia sẻ kiến thức website" />
+    <meta property="og:image" content="URL_IMAGE" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="fb:app_id" content="1054094858070075" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1632614030377920";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "facebook-jssdk"));
+    </script>
+    <link rel="stylesheet" href="product_detail.css">
+    <link rel="stylesheet" href="abuot us.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class="product">
+        <nav class="logos">
+
+            <a href=""> <img src="imgicon/logo.png" alt=""></a>
+        </nav>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html"> Trang chủ</a>
+                </li>
+                <li>
+                    <a href=""> Tin tức các món ăn </a>
+                </li>
+                <li>
+                    <a href=""> Thông tin các món ăn tại Hà Nội </a>
+                </li>
+                <li>
+                    <a href="">Về chúng tôi</a>
+                </li>
+
+            </ul>
+
+            <ul class="user_giohang ">
+                <a href=""> <img src="imgicon/user.png" alt=""></a>
+                <a href="shop.html"> <img src="imgicon/giohang.png" alt=""></a>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="tieude1">
+                <h1>THỨC ĂN <br> THƯỢNG HẠNG</h1>
+                <p> Chuyên cung cấp các món ăn đảm bảo dinh dưỡng hợp vệ sinh đến <br> người dùng, phục vụ người dùng 1 cách hoàn hảo nhất! </p>
+            </div>
+
+            <div class="image_header">
+
+                <a href=""> <img class="s1" src="img/image 5.png" alt=""></a>
+                <a href=""> <img src="img/image 6.png" alt=""></a>
+                <a href=""> <img class="s1" src="img/image 7.png" alt=""></a>
+            </div>
+            <a href="shop.html"><button type=""> Đặt mua ngay</button></a>
+        </div>
+
+
+        <div class="product_detail">
+            <img class="product_imgae" src="img/doan/sf1.jpg" alt="">
+
+
+            <form class="form_product">
+                <h2>Xôi bánh mỳ & trà sữa </h2><br>
+
+                <p><img src="imgicon/icondiatri.png" alt="">18 ngõ 22 trung kính cầu giấy Hà nội</p><br>
+                <p> <img src="imgicon/dong ho.png" alt="">Hoạt đông từ 7H-21h hàng ngày</p>
+                <p class="font_monney"> <img src="imgicon/giohang.png" alt=""> 15.000 - 30.000 VND</p>
+                <hr>
+            </form>
+            <div class="product_detail_bottom">
+
+
+                <a href=""> <img src="imgicon/user.png" alt="">
+                    <p>Liên hệ</p>
+                </a>
+
+                <a href="shop.html"> <img src="imgicon/giohang.png" alt="">
+                    <p>Thêm vào giỏ hàng</p>
+                </a>
+            </div>
+        </div>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Arial;
+                margin: 0;
+                font-size: 18px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            /* Position the image container (needed to position the left and right arrows) */
+            
+            .container {
+                position: relative;
+                width: 620px;
+                height: 500 px;
+                right: 11pc;
+            }
+            /* Hide the images by default */
+            
+            .mySlides {
+                display: none;
+                text-align: center;
+                margin: 0 auto;
+            }
+            /* Add a pointer when hovering over the thumbnail images */
+            
+            .cursor {
+                cursor: pointer;
+            }
+            /* Next & previous buttons */
+            
+            .prev,
+            .next {
+                text-align: center;
+                cursor: pointer;
+                position: absolute;
+                top: 40%;
+                width: 50px;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+                background-color: black;
+            }
+            /* Position the "next button" to the right */
+            
+            .next {
+                right: -15px;
+                border-radius: 3px 0 0 3px;
+            }
+            /* On hover, add a black background color with a little bit see-through */
+            
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            /* Number text (1/3 etc) */
+            
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+            /* Container for image text */
+            
+            .caption-container {
+                text-align: center;
+                background-color: #222;
+                padding: 2px 16px;
+                color: white;
+                text-align: center;
+                width: 620px;
+            }
+            
+            .myfont {
+                margin-top: 40px;
+            }
+            
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /* Six columns side by side */
+            
+            .column {
+                float: left;
+                width: 16.66%;
+            }
+            /* Add a transparency effect for thumnbail images */
+            
+            .demo {
+                opacity: 0.6;
+            }
+            
+            .active,
+            .demo:hover {
+                opacity: 1;
+            }
+        </style>
+
+
+        <h2 class="myfont">Mô tả chi tiết sản phẩm </h2>
+
+        <p class="myfonts">
+            Hiện naу, trên thị trường ᴄó rất nhiều loại bánh mì ᴠà đượᴄ phân loại theo 2 nhóm ᴄơ bản:<br> Nếu phân loại theo màu ѕắᴄ thì ᴄó 2 loại ѕau:
+            <br> – Bánh mì trắng: làm từ lúa mì ᴠàng ᴠà bột mì thông thường.<br> – Bánh mì đen: làm từ bột thô ᴄủa bánh mì đen.<br> Nếu phân loại theo thành phần nguуên liệu:<br> – Bánh mì phổ thông.<br> – Bánh mì ᴄó nhân<br> – Bánh mì nhanh<br> Và để
+            dễ dàng phân biệt giữa ᴄáᴄ loại bánh mì, người ta phân biệt theo 3 nhóm ᴄhính:<br> – Nhóm bánh mì gầу (Lean Yeaѕt Dough): bao gồm ᴄáᴄ loại bánh mì trong thành phần ᴄhứa rất ít hoặᴄ không ᴄó ᴄáᴄ ᴄhất béo như dầu ăn, bơ, trứng, ít đường ᴠà ít
+            ѕữa.
+            <br> – Nhóm bánh mì béo (Riᴄh Yeaѕt Dough): bao gồm ᴄáᴄ loại bánh mà trong thành phần ᴄó nhiều ᴄhất béo, nhiều đường, ѕữa, trứng.<br> – Nhóm bánh mì “ngàn lớp” (Rolled – in Yeaѕt Dough): là loại bánh mà phần ᴠỏ gồm nhiều lớp bột хen giữa ᴠới
+            ᴄáᴄ lớp bơ, khi nướng lớp bột ѕẽ táᴄh ra, tạo thành “ngàn” lớp ᴄho ᴠỏ bánh<br>
+
+
+        </p>
+
+        <div class="product_attach">
+            <div class="list-groups">
+
+                <div class="list-group">
+                    <h3>sản phẩm đang được bán chạy</h3>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/doan/banhmy3.jpeg" alt="">sản phẩm tương tự</a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/nuoc/f1.jpg" alt=""> đồ uống có ga </a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/doan/sp2.jpg" alt="">đồ chay </a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/doan/hamburger.jpeg" alt=""> hamburger </a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/nuoc/sf6.jpg" alt=""> món tráng miệng </a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/doan/sp6.jpg" alt=""> lẩu thái hoàng gia </a>
+                    <a href="#" class="list-group-item list-group-item-action"><img src="img/doan/OIP.jpeg" alt="">cơm cuộn </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/doan/banhmy1.jpeg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="img/doan/banhmy2.jpeg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="img/doan/banhmy3.jpeg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="img/doan/banhmy4.jpeg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="img/doan/banhmy5.jpeg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="img/doan/banhmy7.jpeg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="">
+
+
+                    hình ảnh đính kèm sản phẩm
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy1.jpeg" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy2.jpeg" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy3.jpeg" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy4.jpeg" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy5.jpeg" onclick="currentSlide(5)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/doan/banhmy7.jpeg" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+        <div class="fb-comments" data-href="https://alla.com.vn/" data-numposts="5"></div>
+
+
+
+
+        <div class="product_content">
+
+            <label class="map-close"></label>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.474453354754!2d105.79871650407478!3d21.013693760131808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab58cca2bfbf%3A0x323dcb1fccf4fb4c!2zMTggTmcuIDIyIFAuIFRydW5nIEvDrW5oLCBUcnVuZyBIb8OgLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1664613462725!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <nav class="logoo">
+                <a href=""> <img src="imgicon/logo.png" alt=""></a>
+            </nav>
+            <div class="contentt">
+                <p>Khám phá<br> Ứng dụng Mobile<br> Viết bình luận<br> Tạo bộ sưu tập<br> Phần thưởng<br> Bảo mật thông tin
+                    <br> Quy định</p>
+                <p>
+                    Công ty<br> Giới thiệu<br> Trợ giúp<br> Việc làm<br> Nhà đầu tư<br> Góp ý<br> Quy chế<br> Thỏa thuận sử dụng dịch vụ<br> Liên hệ
+                </p>
+                <p>Tham gia trên<br> Facebook
+                    <br> Instagram
+                    <br> Youtube
+                    <br> Google
+                    <br> ShopeeFood.vn - Giao đồ ăn tận nơi<br> NowPOS - Phần mềm quản lý</p>
+            </div>
+
+            <nav>
+                <a href=""> <img src="imgicon/image 119.png" alt=""></a>
+                <a href=""> <img src="imgicon/image 120.png" alt=""></a>
+                <a href=""> <img src="imgicon/image 121.png" alt=""></a> <br>
+                <a href=""> <img src="imgicon/image 122.png" alt=""></a>
+            </nav>
+        </footer>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
